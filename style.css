@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* sementara */
+body {
+    /* margin-bottom: 500px; */
+}
+
+.text-custom {
+    color: #C6B640;
+    /* Warna kustom */
+}
+
+* {
+    font-family: dm sans;
+}
+
+/* navbar */
+.navbar {
+    background-color: #C6B640;
+}
+
+.navbar .navbar-brand img {
+    width: 50px;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .btn {
+    width: 120px;
+}
+
+/* navbar */
+
+/* hero */
+#hero {
+    background-image: url(./asset/Gambar1.jpg);
+    opacity: 80%;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+#hero .konten-hero h1 {
+    font-size: 60px;
+    color: #C6B640;
+}
+
+/* hero */
+
+/* produk */
+#produk {
+    margin-top: 100px;
+}
+
+#produk .more {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+#produk .card-produk {
+    text-decoration: none;
+    border: none;
+}
+
+#produk .card-produk .foto-produk {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* produk */
+
+/* cta */
+#cta {
+    margin-top: 100px;
+    color: white;
+}
+
+#cta .bg-cta {
+    background-image: url(./asset/Gambar1.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta h1 {
+    font-size: 50px;
+}
+
+/* cta */
+
+/* Login */
+#login .bg-login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 204);
+}
+
+#login .custom-width {
+    width: 400px;
+}
+
+#login form .form-label {
+    padding-top: 10px;
+}
+
+#login img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Login */
+
+/* register */
+#register img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+/* register */
+
+/* footer */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #C6B640;
+    padding: 1px;
+}
+
+/* footer */
