@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Order</title>
+
+    <!-- ini favicon -->
+    <link rel="shortcut icon" href="./asset/feasibility.png" type="image/x-icon">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./asset/feasibility.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="./homePage.html">Beranda</a>
+                    <a class="nav-link" href="./produkPage.html">Produk</a>
+                    <a class="nav-link" href="./produkPage.html">Keranjang</a>
+                    <a class="nav-link" href="./produkPage.html">Paket Saya</a>
+                    <div class="vr"></div>
+                    <li class="nav-item dropdown ps-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ahmad Fulan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./profilePage.html">Akun Saya</a></li>
+                            <li><a class="dropdown-item" href="./landingPage.html">Keluar</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav -->
+
+    <section id="faktur">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Faktur dan Pembayaran</h3>
+                    <h4></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <h4>Tagihan Pembelian Paket</h4>
+                    <h5>Total : Rp. 25.000</h5>
+                </div>
+                <div class="col-lg-3 border rounded-3">
+                    <h3>Bayar sebelum:</h3>
+                    <p>*waktu mundur</p>
+                    <div class="d-flex gap-2">
+                        <form action="./paymentPage.html">
+                            <input type="submit" class="btn btn-success" value="Bayar Sekarang">
+                        </form>
+                        <form action="./produkPage.html">
+                            <input type="submit" class="btn btn-danger" value="Batalkan">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
