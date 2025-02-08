@@ -85,12 +85,7 @@ body {
 /* produk */
 
 /* orderpage */
-#faktur input[type="submit"] {
-    width: 100%; /* Paksa tombol memenuhi lebar */
-    margin-top: 100px;
-    padding: 10px;
-    
-}
+
 
 /* orderpage */
 
