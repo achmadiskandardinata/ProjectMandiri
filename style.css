@@ -70,7 +70,7 @@ body {
 }
 
 
-#produk .card-produk {
+.card-produk {
     text-decoration: none;
     border: none;
 }
@@ -166,7 +166,7 @@ body {
 
 /* detail produk */
 
-/* produk terkai */
+/* produk terkait */
 #detail-produk .card-produk {
     text-decoration: none;
     border: none;
@@ -179,7 +179,13 @@ body {
     justify-content: end;
     align-items: center;
 }
-/* produk terkai */
+/* produk terkait */
+
+/* paket saya */
+#paket-saya {
+    margin-top: 100px;
+}
+/* paket saya */
 
 
 /* footer */
