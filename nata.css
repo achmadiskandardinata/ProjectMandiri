@@ -1,0 +1,22 @@
+/* footer */
+.footer {
+    background-color: #C6B640;
+    /* Warna kustom*/
+    color: white;
+    /* Warna teks */
+    text-align: center;
+    /* Posisi teks di tengah */
+    padding: 15px 0;
+    /* Ruang atas dan bawah */
+    margin-top: 200px;
+    /* Jarak dari konten atas */
+}
+
+.footer p {
+    margin: 0;
+    /* Menghilangkan margin default */
+    font-size: 14px;
+    /* Ukuran teks */
+}
+
+/* footer */

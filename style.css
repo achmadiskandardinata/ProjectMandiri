@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+* {
+    font-family: dm sans;
+}
+
 /* sementara */
 body {
     /* margin-bottom: 500px; */
@@ -10,13 +14,28 @@ body {
     /* Warna kustom */
 }
 
-* {
-    font-family: dm sans;
+/* custom btn */
+.custom-btn {
+    background-color: #C6B640; /* Warna emas */
+    color: white; /* Warna teks */
+    border: none; 
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
 }
 
+/* Hover effect */
+.custom-btn:hover {
+    background-color: #B3A234; /* Warna lebih gelap saat hover */
+}
+/* custom btn */
+
+
 /* navbar */
-.navbar {
+/* .navbar {
     background-color: #C6B640;
+    padding: 0%;
 }
 
 .navbar .navbar-brand img {
@@ -33,21 +52,73 @@ body {
 
 .navbar .navbar-nav .btn {
     width: 120px;
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Supaya navbar tetap di atas elemen lain */
+    background-color: white; /* Warna background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    padding: 5px 0; /* Padding atas & bawah */
+}
+
+.navbar-brand img {
+    height: 50px; /* Sesuaikan ukuran logo */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500; /* Tebalkan sedikit teks */
+    color: #333; /* Warna teks */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #C6B640; /* Warna saat hover */
+}
+
+.btn-outline-dark {
+    border-radius: 50px; /* Bikin tombol lebih rounded */
+    padding: 8px 20px;
+    transition: all 0.3s;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: white;
+}
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar h6{
+    margin-bottom: 0;
+    color: #C6B640;
+}
+
+.dropdown-item:active, 
+.dropdown-item:focus {
+    background-color: #C6B640 !important; /* Warna latar belakang saat diklik */
+    color: white !important;
 }
 
 /* navbar */
 
 /* hero */
 #hero {
-    background-image: url(./asset/Gambar1.jpg);
-    opacity: 80%;
-    background-size: cover;
-    height: 800px;
-    color: white;
+    background-image: url(./asset/hero.jpg);
+    background-size: cover; /* Menyesuaikan ukuran gambar agar menutupi seluruh area */
+    background-position: center; /* Menampilkan bagian atas gambar agar tidak terpotong terlalu banyak */
+    background-repeat: no-repeat;
+    height: 500px;
+    color: black;
     display: flex;
     align-items: center;
-
+    padding-top: 56px;
 }
+
 
 #hero .konten-hero h1 {
     font-size: 60px;
@@ -187,13 +258,20 @@ body {
 }
 /* paket saya */
 
+/* try out */
+#tryout {
+    margin-top: 56px;
+}
+/* try out */
+
+
 
 /* footer */
-footer {
-    margin-top: 100px;
-    text-align: center;
-    background-color: #C6B640;
-    padding: 1px;
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Kolom untuk garis & teks */
+    align-items: center;
+    padding: 15px 0;
 }
 
 /* footer */
